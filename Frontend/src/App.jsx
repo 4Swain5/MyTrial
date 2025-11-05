@@ -18,7 +18,7 @@ const App = () => {
       setWeather(res.data);
       setError("");
     } catch {
-      setError("27°C");
+      setError("30°C");
       setWeather(null);
     }
   };
